@@ -26,7 +26,7 @@ function! s:hook.on_output(session, context)
 \		"（」・ω・）」うー！",
 \		"（／・ω・）／にゃー！"
 \	]
-	echo aa_list[ self.index_counter / 12 % len(aa_list)  ]
+	echo aa_list[ self.index_counter / 4 % len(aa_list)  ]
 endfunction
 
 function! s:hook.on_exit(...)
